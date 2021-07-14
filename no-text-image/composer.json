@@ -12,5 +12,9 @@
   ],
   "require": {
     "thiagoalessio/tesseract_ocr": "2.12.*"
+  },
+  "config": {
+    "sort-packages": true,
+    "optimize-autoloader": true
   }
 }

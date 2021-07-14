@@ -16,4 +16,5 @@ if ( !defined( 'ABSPATH' ) ) {
 }
 
 require_once( 'vendor/autoload.php' );
-require_once( 'inc/scan-images.php' );
+require_once( 'vendor/thiagoalessio/tesseract_ocr/src/TesseractOCR.php');
+require_once( 'inc/ScanImages.php' );

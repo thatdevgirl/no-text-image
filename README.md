@@ -23,6 +23,7 @@ The [Tesseract OCR wrapper for PHP](https://github.com/thiagoalessio/tesseract-o
 
 * [WP Tesseract plugin](https://wordpress.org/plugins/wp-tesseract/)
 * [Tesseract OCR for PHP API documentation](https://github.com/thiagoalessio/tesseract-ocr-for-php#api)
+* [Tesseract command line usage](https://tesseract-ocr.github.io/tessdoc/Command-Line-Usage.html#simplest-invocation-to-ocr-an-image)
 
 
 
@@ -49,3 +50,11 @@ Evernote OCR would have been a nice thought, but it is a violation of their API 
 
 * [Evernote OCR Composer package](https://packagist.org/packages/estey/evernote-ocr)
 * [Evernote API License Agreement](https://dev.evernote.com/doc/reference/api_license.php)
+
+
+
+## To Do List
+
+* Make it so a notice appears when an image has text, not just reject the image outright. Rejecting was easier in the short term, because it seems that admin notices are not available to the Media Uploader / Library / post editor? Needs more research.
+* Find a better OCR reader. Tesseract definitely detects that there is text in the image, but the text it finds is highly inaccurate.
+* Check for existing images with text when they are added to a page. See [image_send_to_editor filter](https://wordpress.stackexchange.com/questions/224633/which-hook-is-fired-when-inserting-media-into-a-post)

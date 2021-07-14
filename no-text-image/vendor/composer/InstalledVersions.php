@@ -32,7 +32,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => '3bfc56126a66923fe89a81ddcc0b38d241976289',
+    'reference' => '4fe221ad703a69668ade3465c4827fd43fc97265',
     'name' => 'threepm/no-text-image',
   ),
   'versions' => 
@@ -53,7 +53,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '3bfc56126a66923fe89a81ddcc0b38d241976289',
+      'reference' => '4fe221ad703a69668ade3465c4827fd43fc97265',
     ),
   ),
 );
