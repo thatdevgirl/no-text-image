@@ -22,6 +22,7 @@ The [Tesseract OCR wrapper for PHP](https://github.com/thiagoalessio/tesseract-o
 ### Additional references
 
 * [WP Tesseract plugin](https://wordpress.org/plugins/wp-tesseract/)
+* [Tesseract OCR for PHP API documentation](https://github.com/thiagoalessio/tesseract-ocr-for-php#api)
 
 
 
