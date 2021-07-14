@@ -1,0 +1,16 @@
+{
+  "name": "threepm/no-text-image",
+  "description": "A WordPress plugin that scans images for text when they are uploaded to the media library.",
+  "minimum-stability": "stable",
+  "type": "wordpress-plugin",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Joni Halabi",
+      "email": "joni@jhalabi.com"
+    }
+  ],
+  "require": {
+    "thiagoalessio/tesseract_ocr": "2.12.*"
+  }
+}
